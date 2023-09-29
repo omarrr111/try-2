@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.959);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    margin: 50px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.2em;
+    padding: 5px 16px;
+
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+.logo{
+    width: 60px;
+    padding-top: 0px;
+}
+.content{
+    justify-content: space-between;
+    display: flex;
+    overflow: hidden;
+}
+.text{
+    color: aliceblue;
+    margin: 60px;
+    font-size: 1.2em;
+}
+.text h2{
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.text p{
+    font-size: 0.8em;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.content a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    background: aliceblue;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: 0.5s ease;
+}
+.content a:hover{
+    font-size: 1.3em ;
+    background-color: rgb(179, 255, 0);
+}
+.content .img0{
+    width: 30%;
+}
+.content .img0 img{
+    width: 180px;
+}    
+.icons img{
+    width: 40px;
+    transition: 0.5s ease;
+}
+.icons{
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    bottom: 50px;
+}
+.icons img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+    
